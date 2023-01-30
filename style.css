@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(143, 186, 236);
+    font-size: 18px;
+}
+main{
+    height: 60vh;
+    display: grid;
+    margin: auto;
+    width: 50%;
+
+    
+}
+h1{
+    text-align: center;
+}
+
+.kuldés{
+    margin: auto;
+    width: 70%;
+}
+fieldset{
+    width: 600px;
+    margin: 0;
+    display:grid;
+}
+
+@media  screen  and(max-width:600px) {
+    label{
+        text-align: left;
+    }
+    fieldset{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    form{
+        width: 100%;
+    }
+    
+}
